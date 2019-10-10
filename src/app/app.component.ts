@@ -17,9 +17,9 @@ export class AppComponent {
     ];
   }
 
-  addArticle(title: HTMLInputElement, link: HTMLInputElement): boolean {
-    console.log(`Adding article title: ${title.value} and link: ${link.value}`);
-    this.articles.push(new Article(title.value, link.value, 'user', 0));
+  addArticle(title: HTMLInputElement, link: HTMLInputElement, role: HTMLInputElement): boolean {
+    console.log(`Adding article title: ${title.value} and link: ${link.value} and role: ${role.value}`);
+    this.articles.push(new Article(title.value, link.value, role.value, 0));
     title.value = '';
     link.value = '';
     return false;

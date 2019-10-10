@@ -9,9 +9,15 @@
     <label for="link">Link:</label>
     <input name="link" id="link" #newlink> <!-- changed -->
   </div>
-
+  <div class="field">
+    <label for="role">Role: </label>
+    <select name="role" id="role" #newrole>
+      <option value="user">User</option>
+      <option value="administrator">Administrator</option>
+    </select>
+  </div>
   <!-- added this button -->
-  <button (click)="addArticle(newtitle, newlink)"
+  <button (click)="addArticle(newtitle, newlink, newrole)"
           class="ui positive right floated button">
     Submit link
   </button>
