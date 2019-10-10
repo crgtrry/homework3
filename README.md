@@ -2,6 +2,8 @@
 
 https://github.com/crgtrry/homework3
 
+Amount of time to do assignment: 5 hours
+
 ## NgBook: Angular Reddit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) Modified to add flag button to flag article if role assigned to article is 'administrator.  It is not functional (extra credit was not done in this case)
