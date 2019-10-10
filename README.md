@@ -1,6 +1,8 @@
-## Homework 3 CSC 436
+# Homework 3 CSC 436
 
-# NgBook: Angular Reddit
+https://github.com/crgtrry/homework3
+
+## NgBook: Angular Reddit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) Modified to add flag button to flag article if role assigned to article is 'administrator.  It is not functional (extra credit was not done in this case)
 
